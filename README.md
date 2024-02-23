@@ -24,6 +24,10 @@ This will open up the containers, and you will be able to open the project at lo
 
 Enjoy!
 
+## Illustration
+
+![](projectIllustration.png)
+
 
 ## Requirements
 * Microservice
