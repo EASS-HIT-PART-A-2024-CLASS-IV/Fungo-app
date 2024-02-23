@@ -1,7 +1,7 @@
 # Fungo-app
 
-#NOTE:
-The program is installed in branch "master"
+**#NOTE:**
+**The program is installed in branch "master"**
 
 To clone this project to you computer, please do the next steps:
 ```
@@ -24,7 +24,7 @@ This will open up the containers, and you will be able to open the project at lo
 Enjoy!
 
 
-Project tree:
+**Project tree:**
 ```
 .
 ├── backend
