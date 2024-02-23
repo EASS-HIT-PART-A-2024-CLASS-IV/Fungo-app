@@ -3,6 +3,7 @@
 **#NOTE:**
 **The program is installed in branch "master"**
 
+### installation
 To clone this project to you computer, please do the next steps:
 ```
 gh repo clone EASS-HIT-PART-A-2024-CLASS-IV/Fungo-app
@@ -23,6 +24,13 @@ This will open up the containers, and you will be able to open the project at lo
 
 Enjoy!
 
+
+## Requirements
+* Microservice
+* Backend
+* Frontend
+* Docker 🐳
+* Docker-compose 
 
 **Project tree:**
 ```
