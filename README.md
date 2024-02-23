@@ -11,6 +11,10 @@ Then, go to Fungo-app file:
 ```
 cd Fungo-app
 ```
+Go to branch master using the next command:
+```
+git checkout master
+```
 To run this program, do the next command, and make sure Docker Desktop is open:
 ```
 docker-compose up --build
