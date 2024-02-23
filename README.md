@@ -22,3 +22,36 @@ docker-compose up --build
 This will open up the containers, and you will be able to open the project at localhost:8501
 
 Enjoy!
+
+
+Project tree:
+```
+.
+├── backend
+│   ├── Dockerfile
+│   ├── __init__.py
+│   ├── backend_main.py
+│   ├── db_areas.py
+│   ├── requestsPyda.py
+│   └── requirements.txt
+├── database
+│   ├── Dockerfile
+│   ├── __init__.py
+│   ├── database.py
+│   ├── db_connection.py
+│   ├── db_server_main.py
+│   ├── models.py
+│   ├── requestsPyda_db.py
+│   └── requirements.txt
+├── docker-compose.yml
+└── frontend
+    ├── Dockerfile
+    ├── data.py
+    ├── frontend_main.py
+    ├── info.py
+    ├── login.py
+    ├── main_pg.py
+    ├── parking.py
+    ├── register.py
+    └── requirements.txt
+    ```
