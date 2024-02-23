@@ -55,3 +55,8 @@ Project tree:
     ├── register.py
     └── requirements.txt
 ```
+
+## Built with:
+**Frontend** -> Streamlit
+**Backend** -> Python, FastAPI
+**Database** -> SQLite, FastAPI
