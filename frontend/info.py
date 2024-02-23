@@ -5,8 +5,6 @@ import json
 def user_info_page():
     st.set_page_config("User Information page")
 
-    #localhost run:
-    #value = re.get("http://localhost:8080/v1/user_info/")
     value = re.get("http://backend:8080/v1/user_info/")
 
     st.title("Fungo 🚗")

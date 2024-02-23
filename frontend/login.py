@@ -19,9 +19,6 @@ def login_page():
         "password":password
     }
     if st.button("Log in") and email and password:
-        
-        #localhost run
-        #r = re.post("http://localhost:8080/v1/login/", json=js_data)
         r = re.post("http://backend:8080/v1/login/", json=js_data)
         if r.status_code == 401:
             st.error("Invalid credentials, email or password is incorrect")

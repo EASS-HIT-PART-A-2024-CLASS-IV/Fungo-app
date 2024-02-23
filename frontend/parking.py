@@ -42,8 +42,6 @@ def start_parking():
     if btn_calc:
         if region:
 
-        #localhost run
-        #value = re.post("http://localhost:8080/v1/startparking/", json=js_data)
             value = re.post("http://backend:8080/v1/startparking/", json=js_data)
 
             cost_value = value.text

@@ -7,9 +7,6 @@ def main_page():
     st.title("Fungo 🚗")
 
 
-    #localhost run
-    
-    #r = re.get("http://localhost:8080/v1/main_page/")
     r = re.get("http://backend:8080/v1/main_page/")
 
     js_data = r.text

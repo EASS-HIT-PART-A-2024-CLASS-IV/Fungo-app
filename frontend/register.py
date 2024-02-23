@@ -22,9 +22,6 @@ def register_page():
 
     if st.button("Register") and email_reg and password_reg and name_reg and phone_number_reg and car_number_reg:
 
-
-        #localhost run:
-        #r = re.post("http://localhost:8080/v1/register/", json=js_data)
         r = re.post("http://backend:8080/v1/register/", json=js_data)
         js_data_r = r.text
         js_data_r = json.loads(js_data_r)

@@ -15,10 +15,7 @@ async def root():
 @app.post("/v1/login/")
 async def login(user : RequestLog):
     global user_logged
-    user_dict = user.dict()
-
-    #this is for localhost run:
-    #response = httpx.post("http://localhost:6699/login_query/", json=user_dict)  
+    user_dict = user.dict() 
     response = httpx.post("http://database:6699/login_query/", json=user_dict)
     if response.status_code == 401:
         raise HTTPException(status_code=401, detail="Invalid credentials")
@@ -31,9 +28,6 @@ async def login(user : RequestLog):
 @app.post("/v1/register/")
 async def register(user : RequestRegister):
     user_dict = user.dict()
-
-    #this is for localhost run:
-    #response = httpx.post("http://localhost:6699/register_query/", json=user_dict)
     response = httpx.post("http://database:6699/register_query/", json=user_dict)
     if response.status_code == 200:
         return response.json()
