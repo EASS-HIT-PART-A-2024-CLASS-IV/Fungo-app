@@ -22,6 +22,7 @@ docker-compose up --build
 ```
 This will open up the containers, and you will be able to open the project at [http://localhost:8501/
 ](http://localhost:8501/)
+
 Enjoy!
 
 ## Illustration
