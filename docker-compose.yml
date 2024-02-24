@@ -6,6 +6,8 @@ services:
       context: ./database
     ports:
       - "6699:6699"
+    volumes:
+      - ./db_app.db:/data/db
   
   backend:
     build: 
