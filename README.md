@@ -20,8 +20,8 @@ To run this program, do the next command, and make sure Docker Desktop is open:
 ```
 docker-compose up --build
 ```
-This will open up the containers, and you will be able to open the project at localhost:8501
-
+This will open up the containers, and you will be able to open the project at [http://localhost:8501/
+](http://localhost:8501/)
 Enjoy!
 
 ## Illustration
