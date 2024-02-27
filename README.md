@@ -3,6 +3,11 @@
 **#NOTE:**
 **The program is installed in branch "master"**
 
+### Short explanation
+Fungo app is a web application, that lets you rent a parking spot in Tel Aviv by regions.
+Each region has it's own price (defined by the project) and there are also regions explanation inside the app
+on how much time you can rent it, and how much does it cost by the system.
+
 ### installation
 To clone this project to you computer, please do the next steps:
 ```
@@ -29,6 +34,9 @@ Enjoy!
 
 ![](projectIllustration.png)
 
+## Short Video
+
+![](Project_video.mp4)
 
 ## Requirements
 * Microservice
