@@ -35,7 +35,7 @@ Enjoy!
 ![](projectIllustration.png)
 
 ## Short Video
-
+Please click on the image and you'll be directed to youtube to a short video:
 [![IMAGE_ALT](Thumbnail.png)](https://youtu.be/ruA3-FkaJJ4)
 
 ## Requirements
