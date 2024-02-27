@@ -36,7 +36,7 @@ Enjoy!
 
 ## Short Video
 
-![](Project_video.mp4)
+[![IMAGE_ALT](Thumbnail.png)](https://youtu.be/ruA3-FkaJJ4)
 
 ## Requirements
 * Microservice
